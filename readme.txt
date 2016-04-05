@@ -10,16 +10,16 @@ Technologies:
 Back End Server
 Node.js 
 Express
-Node mysql
+Node.js MySql
 
 Front End Display and Test
-Angular
+AngularJS
 Tested On:
 Mozilla Firefox 44.0.2 
 Google Chrome	49.0.2623.87 (Official Build) m (32-bit)
 
 Database
-mysql
+MySql
 
 To Utilize:
 Set Up mysql databse with tables and data:
@@ -56,7 +56,7 @@ Add Scores works with api
 app.post('/addScore'
 
 To Edit Score click on score itself and hit enter when done
-or click on edit link next to score and hit save when don 
+or click on edit link next to score and hit save when done 
 Edit Scores works with api 
 app.put( '/updateScore/:scoreId/:scoreAmount'
 
